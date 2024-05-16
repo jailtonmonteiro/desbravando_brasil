@@ -15,7 +15,7 @@ body {
 
 /* Estilo do header */
 header {
-    background: #35424a;
+    background: #354a38;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -44,4 +44,27 @@ header nav ul li a {
 header nav ul li a:hover {
     text-decoration: none;
     color: green;
+}
+/* Estilo Main*/
+main {
+    padding: 2rem;
+    max-width: 850px;
+    margin: 0 auto;
+    background: #e3f1e1;
+    border-radius: 8px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #354a38;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
 }
