@@ -26,7 +26,6 @@ header h1 {
 }
 
 header nav ul {
-    list-style: none;
     padding: 0;
 }
 
@@ -45,6 +44,7 @@ header nav ul li a:hover {
     text-decoration: none;
     color: green;
 }
+
 /* Estilo Main*/
 main {
     padding: 2rem;
@@ -52,6 +52,30 @@ main {
     margin: 0 auto;
     background: #e3f1e1;
     border-radius: 8px;
+}
+
+main p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+main section ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+main section ul a {
+    text-decoration: none;
+    color: #000;
+}
+main section ul a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+main section ul img {
+    float: left;
+    margin: 5px;
 }
 
 /* Estilo do rodapé */
