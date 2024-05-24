@@ -50,6 +50,7 @@ main {
     padding: 2rem;
     max-width: 850px;
     margin: 0 auto;
+    margin-bottom: 2rem;
     background: #e3f1e1;
     border-radius: 8px;
 }
