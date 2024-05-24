@@ -18,6 +18,22 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <h2>Contatos</h2>
+            <p>Entre em contato conosco para compartilhar suas experiências, tirar dúvidas ou simplesmente dizer olá. Adoramos ouvir nossos leitores!</p>
+            <form action="submit_contact_form" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
     <footer>
         <p>&copy; 2024 Desbravando o Brasil. Todos os direitos reservados.</p>
     </footer>
